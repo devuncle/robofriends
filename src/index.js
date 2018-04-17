@@ -6,5 +6,5 @@ import Hello from './Hello';
 import registerServiceWorker from './registerServiceWorker';
 import 'tachyons';
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+ReactDOM.render(<Hello greeting={ 'Hello ' + 'react '}/>, document.getElementById('root'));
 registerServiceWorker();
